@@ -1,0 +1,71 @@
+h1 {
+color: #A93226;
+font-size: 24px;
+font-family: arial;
+
+}	
+h2 {
+color: #A93226;
+font-size: 22px;
+font-family: arial;
+
+}	
+h3 {
+color: #A93226;
+font-size: 20px;
+font-style: italic;
+font-family: arial;
+
+}	
+img{
+clip-path: circle(30%);
+border-color: azure;
+border: 30px;
+
+}	
+body {
+	font-family: Arial;
+}
+
+
+.header {
+
+  text-align: center;
+  background-color: #E6B0AA;
+  padding: 30px;
+  margin: 0px;
+  border-radius: 10px;
+
+
+}
+
+.content {
+  text-align: center;
+  margin: 30px;
+}
+.card{
+
+  background-color: #E6B0AA;
+  margin:100px ;
+  padding: 30px;
+  border-radius: 10px;
+
+}
+
+.img  {
+  text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
